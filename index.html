@@ -4,68 +4,94 @@
 <head>
   <meta charset="utf-8">
   <title>Table For Two</title>
+  <!-- Bootstrap CSS Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+  <!-- Icons -->
+  <link rel="icon" href="css/images/favicon.ico">
+  <!-- Bootstrap JavaScripts -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+  <!-- Navigation Bar -->
+
   <section id="title">
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #222831;">
-      <a class="navbar-brand" href="">
-        Table For Two
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" name="button">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarToggler">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contacts</a>
-          </li>
-        </ul>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="">
+          Table For Two
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation" name="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="h1-normal">A blog about</h1>
+          <h1 class="h1-italic">enjoying an experience</h2>
+            <h1 class="h1-normal">of cooking and eating</h1>
+            <h1 class="h1-italic">together.</h2>
+              <button type="button" class="btn btn-outline-secondary">Learn more <span style='font-size:20px;'>&#127869;</span></button>
+        </div>
+        <div class="col-sm text-right">
+          <img src="css/images/main-img4.png" class="img-fluid" alt="Responsive image">
+        </div>
       </div>
-    </nav>
-
-    <!-- Title -->
-
-    <div>
-      <h1>A blog about enjoyong an experience of cooking and eating together.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
     </div>
-    <div>
-      <img src="css/images/main-img2.jpg" alt="main-img">
-    </div>
-
   </section>
 
 
   <!-- Features -->
 
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-lg text-center">
+          <img src="css/images/features1.png" class="features-img" alt="pan">
+          <h3>Hi there and welcome!</h3>
+          <p>My name is Sofiya. Me and my boyfriend Mattia like cooking together at our home. </p>
+        </div>
+        <div class="col-lg text-center">
+          <img src="css/images/features21.png" class="features-img" alt="pan">
+          <h3>Discover our recepies</h3>
+          <p>Here I share different awesome recepies that we are trying out on our kitchen.</p>
+        </div>
+        <div class="col-lg text-center">
+          <img src="css/images/features3.png" class="features-img" alt="pan">
+          <h3>Cook&Taste them with us</h3>
+          <p>We will give you all the instructions and cool tips so you can join our cooking party.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -145,7 +171,7 @@
 
   <footer id="footer">
 
-    <p>© Copyright 2018 TinDog</p>
+    <p>© Copyright 2020 Sofiya Kryuchkova</p>
 
   </footer>
 
