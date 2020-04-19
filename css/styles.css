@@ -3,8 +3,14 @@ body {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
+
+h3 {
+  font-size: 2rem;
+  margin-top: 100px;
+}
+
 
 /* TOP CONTAINER */
 #title {
@@ -13,7 +19,7 @@ p {
 
 .container {
   padding: 0;
-  max-width: 1300px;
+/* max-width: 1140px; */
 }
 
 /* Navigation Bar */
@@ -79,10 +85,14 @@ p {
   background-color: inherit;
 }
 
-.col-sm {
-  padding-left: 0;
-  padding-right: 0;
+.row {
   padding-bottom: 80px;
+}
+
+.col-sm {
+  padding-top: 70px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .img-fluid {
@@ -96,13 +106,9 @@ p {
   padding: 150px 0;
 }
 
-.col-lg {
-  margin-bottom: 70px;
-}
-
 .features-img {
-  max-width: 80%;
-  padding-bottom: 35px;
+  max-width: 100%;
+
 }
 
 #testimonials {
