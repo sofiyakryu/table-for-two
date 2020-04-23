@@ -19,16 +19,19 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
 
-  <script defer src="/lib/fa/js/all.js"></script> <!--load all styles -->
+  <script defer src="/lib/fa/js/all.js"></script>
+  <!--load all styles -->
 </head>
 
 <body>
 
-  <!-- Navigation Bar -->
+  <!-- TITLE SECTION -->
 
   <section id="title">
+
+    <!-- Navigation Bar -->
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-md navbar-dark">
         <a class="navbar-brand" href="">
           Table For Two
         </a>
@@ -41,13 +44,13 @@
               <a class="nav-link" href="">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Blog</a>
+              <a class="nav-link" href="#features">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">About Us</a>
+              <a class="nav-link" href="#blog-sections">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contacts</a>
+              <a class="nav-link" href="#footer">Contacts</a>
             </li>
           </ul>
         </div>
@@ -55,20 +58,16 @@
 
       <!-- Title -->
 
-<div class="container-title">
-
-    <img src="css/images/main-img.png" class="img-fluid" alt="Responsive image">
-    <div class="top-left">
-        <h1 class="h1-normal" style="font-size: 3vw;"><span class="h1-background" style="background-color: #494e54;">A blog about</span></h1>
-        <h1 class="h1-italic" style="font-size: 3vw;"><span class="h1-background" style="background-color: #494e54;">enjoying an experience</span></h2>
-          <h1 class="h1-normal" style="font-size: 3vw;"><span class="h1-background" style="background-color: #494e54;">of cooking and eating</span></h1>
-          <h1 class="h1-italic" style="font-size: 3vw;"><span class="h1-background" style="background-color: #494e54;">together.</span></h2>
-            <button type="button" class="btn btn-lg btn-outline-secondary">Learn more <i class="fa fa-cutlery" aria-hidden="true"></i></button>
+      <div class="container-title">
+        <img src="css/images/main-img.png" class="img-fluid" alt="Responsive image">
+         <div class="top-left">
+          <h1 class="h1-normal"><span class="h1-background">A blog about</span></h1>
+          <h1 class="h1-italic"><span class="h1-background">enjoying an experience</span></h2>
+          <h1 class="h1-normal"><span class="h1-background">of cooking and eating</span></h1>
+          <h1 class="h1-italic"><span class="h1-background">together.</span></h2>
+          <button type="button" class="btn btn-lg btn-outline-secondary">Learn more <i class="fa fa-cutlery" aria-hidden="true"></i></button>
+        </div>
       </div>
-
-</div>
-
-      <!-- </div> -->
     </div>
   </section>
 
@@ -77,7 +76,7 @@
 
   <section id="features">
     <div class="container">
-     <div class="row">
+      <div class="row">
 
 
         <div class="col-sm-4 text-center">
@@ -112,77 +111,74 @@
 
   <section id="testimonials">
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <h2 class="testomonial-text">"Every time Sofiya and Mattia organize a dinner at their place we know that it will be much funnier and testier than in any restaurant!"</h2>
-      <img class="testimonial-image" src="css/images/testimonial1.jpg" alt="dog-profile">
-      <em>Kate and Patrik, close friends</em>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="testomonial-text">"Every time Sofiya and Mattia organize a dinner at their place we know that it will be much funnier and testier than in any restaurant!"</h2>
+          <img class="testimonial-image" src="css/images/testimonial1.jpg" alt="dog-profile">
+          <em>Kate and Patrik, close friends</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testomonial-text">"Since those guys have moved to our building I can smell that something cool is being cooked nextdoor. When they first invited me to pass by I undestood that I was right!"</h2>
+          <img class="testimonial-image" src="css/images/testimonial2.jpg" alt="lady-profile">
+          <em>A neighbour, lives nextdoor</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <h2 class="testomonial-text">"Since those guys have moved to our building I can smell that something cool is being cooked nextdoor. When they first invited me to pass by I undestood that I was right!"</h2>
-        <img class="testimonial-image" src="css/images/testimonial2.jpg" alt="lady-profile">
-        <em>A neighbour, lives nextdoor</em>
+    <div>
+        <img class="stars-logo" src="css/images/press-logo1.png" alt="tc-logo">
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
   </section>
 
-  <!-- Press -->
+  <!-- BLOG SECTIONS -->
 
-  <section id="press">
-    <img class="press-logo" src="css/images/press-logo1.png" alt="tc-logo">
-</section>
-
-  <!-- Pricing -->
-
-  <section id="pricing">
+  <section id="blog-sections">
     <div class="container">
 
-    <h2 class="pricing-title">A Plan for a Nice Food at any time of the day</h2>
-    <p class="pricing-title">It doesn't matter either it's an early morning before going to work or a romantic weekend night there's always a cool recepy to cook.</p>
-<div class="row">
+      <h2 class="card-title">A Plan for a Nice Food at any time of the day</h2>
+      <p class="card-title">It doesn't matter either it's an early morning before going to work or a romantic weekend night there's always a cool recepy to cook.</p>
+      <div class="row">
 
-  <div class="pricing-column col-lg-4 col-md-6">
-    <div class="card">
-      <img class="card-img-top" src="css/images/card-img1.gif" alt="Card image cap">
-      <div class="card-body">
-        <h2 class="card-title">Healthy Breakfast</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
+        <div class="card-column col-lg-4 col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="css/images/card-img1.gif" alt="Card image cap">
+            <div class="card-body">
+              <h3>Healthy Breakfast</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-column col-lg-4 col-md-6">
+          <div class="card">
+            <img class="card-img-top" src="css/images/card-img2.gif" alt="Card image cap">
+            <div class="card-body">
+              <h3>Nutricious Lunch</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-column col-lg-4">
+          <div class="card">
+            <img class="card-img-top" src="css/images/card-img3.gif" alt="Card image cap">
+            <div class="card-body">
+              <h3>Romantic Dinner</h3>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
-  </div>
-
-  <div class="pricing-column col-lg-4 col-md-6">
-    <div class="card">
-      <img class="card-img-top" src="css/images/card-img2.gif" alt="Card image cap">
-      <div class="card-body">
-        <h2 class="card-title">Nutricious Lunch</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="pricing-column col-lg-4">
-    <div class="card">
-      <img class="card-img-top" src="css/images/card-img3.gif" alt="Card image cap">
-      <div class="card-body">
-        <h2 class="card-title">Romantic Dinner</h2>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-lg btn-block btn-outline-dark">See Recepies</a>
-      </div>
-    </div>
-  </div>
-
-</div>
-  </div>
   </section>
 
 
